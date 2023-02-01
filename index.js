@@ -44,6 +44,6 @@ const client = new Client({
     //.connect(URI)
     //.then(() =>console.log('connected to DB'))
     //.catch((error) => console.log('faild to connect:',error));
- app.get ('/',(_req, res) => res.send ('<h1>Hello mohamed mostafa sayed  <h1>'))
+ app.get ('/',(_req, res) => res.send ('<h1>Hello mohamed mostafa sayed mm  <h1>'))
  app.listen (PORT , ()=>console.log(`app is up and running on port ${PORT}`))
  
