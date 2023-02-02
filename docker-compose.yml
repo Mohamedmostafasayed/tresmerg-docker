@@ -3,9 +3,9 @@ services:
   node-app:
   
 
-    container_name: express-node-app-container
-    ports:
-      - "4000:4000"
+    
+    image: 01068949700/tresmerge-docker #ده عشان اعمل بوش على الدوكر هب#
+    
     env_file:
       - ./.env
     depends_on:
